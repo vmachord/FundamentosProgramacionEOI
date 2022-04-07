@@ -190,7 +190,7 @@ user.email=billy@billyclasstime.com
 IR AL GITHUB -> COPIAR la ruta del repositorio de git
 ```
 
-![](img\01.png)
+![](img/01.png)
 
 Establecemos la conexion
 
@@ -200,4 +200,4 @@ git remote add main https://github.com/BillyClassTime/FundamentosProgramacionEOI
 
 CONFIRMACION DE NUESTRO USUARIO DE GITHUB
 
-![](img\02.png)
+![](img/02.png)
