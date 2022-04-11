@@ -201,3 +201,39 @@ git remote add main https://github.com/BillyClassTime/FundamentosProgramacionEOI
 CONFIRMACION DE NUESTRO USUARIO DE GITHUB
 
 ![](img/02.png)
+
+3.11 Finalización de la autorización
+
+![](img/03.png)
+
+
+### 4. BUCLE
+
+4.1  - Hacer las actualizaciones en los ficheros, imagenes, programas, carpetas y demás elementos de nuestro proyecto.
+
+4.2  - Informar a git de los cambios:
+
+```
+c:><caperta del proyecto> git add .
+```
+
+4.3 - Actualizar nuestro repositorio LOCAL o Confirmación de los cambios.
+
+```
+c:><caperta del proyecto> git commit -m "<TEXTO CON LA OBSERVACION DE LA CONFIRMACION"
+```
+
+4.4 - Actualizamos al remoto (NO LO VEREMOS EN GITHUB)
+
+```
+c:><caperta del proyecto> git push main
+```
+
+4.5 - Revisar el status
+
+```
+c:><caperta del proyecto>git status
+```
+
+> Vuelta al No. 4.1
+>
