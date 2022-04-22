@@ -11,6 +11,32 @@ Algoritmo CuadradoDeNumeros
 FinAlgoritmo
 ```
 2. Números primos
+
+```
+Algoritmo NumerosPrimos
+    Escribir "Ingrese un numero" 
+    Leer nro
+    cont<-1
+    Mientras cont<=nro Hacer
+    div<-1
+    cont2<-2
+        Mientras cont2<cont y div1=1 Hacer
+            Si cont mod cont2 = 0 Entonces
+                div=div+1
+            FinSi
+            cont2=cont2+1
+        FinMientras
+        Si div = 1 Entonces
+            Escribir "Es primo"
+        Sino
+            Escribir "No es primo"
+        FinSi
+        cont = cont +1
+    FinMientras
+FinAlgoritmo
+
+```
+
 3. Construir un avión de papel
 ```
 Algoritmo AvionPapel
